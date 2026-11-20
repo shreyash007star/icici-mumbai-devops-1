@@ -9,6 +9,3 @@ def welcomeMessage():
 def loginApp():
     return {"message": "welcome to login page"}
 
-@app.get("/register")
-def loginApp():
-    return {"message": "welcome to registration page"}
